@@ -3,6 +3,7 @@ git init
 git config --global user.name "Lalama1982"
 git config --global user.email "lalamaesp@gmail.com"
 git clone git@github.com:Lalama1982/gitOperations.git
+git clone https://github.com/Lalama1982/gitOperations.git
 git add file_name.txt
 git commit -m "first commit"
 git push
