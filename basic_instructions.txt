@@ -1,4 +1,4 @@
-ssh >> passphrase for key : new ssh key
+ssh >> passphrase for key : lmynad1982
 git init
 git config --global user.name "Lalama1982"
 git config --global user.email "lalamaesp@gmail.com"
