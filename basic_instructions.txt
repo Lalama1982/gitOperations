@@ -7,3 +7,12 @@ git clone https://github.com/Lalama1982/gitOperations.git
 git add file_name.txt
 git commit -m "first commit"
 git push
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+-- Task: Copy stuff from "repo1" to "repo2"
+cd repo2
+git remote add repo1 git@github.com:Lalama1982/repo1.git
+git fetch repo1
+git merge repo1/master --allow-unrelated-histories
+-- nothing to commit, but just push
+--git remote rm repo1
