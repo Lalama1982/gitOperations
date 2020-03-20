@@ -1,11 +1,20 @@
 ssh >> passphrase for key : lmynad1982
+
+// initial set up
 git init
 git config --global user.name "Lalama1982"
 git config --global user.email "lalamaesp@gmail.com"
-git clone git@github.com:Lalama1982/gitOperations.git
-git clone https://github.com/Lalama1982/gitOperations.git
+
+// setting the remote
+-- git remote rm origin
 git remote add origin git@github.com:Lalama1982/JSHtml_Stuff-tablesCreatRead.git
 git remote add origin https://github.com/Lalama1982/JSHtml_Stuff-tablesCreatRead.git
+
+// cloning
+git clone git@github.com:Lalama1982/gitOperations.git
+git clone https://github.com/Lalama1982/gitOperations.git
+
+// add changes, committing & push
 git add file_name.txt
 git commit -m "first commit"
 git push
