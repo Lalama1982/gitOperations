@@ -14,8 +14,12 @@ git remote add origin https://github.com/Lalama1982/JSHtml_Stuff-tablesCreatRead
 git clone git@github.com:Lalama1982/gitOperations.git
 git clone https://github.com/Lalama1982/gitOperations.git
 
+// pull
+git pull origin master
+
 // add changes, committing & push
 git add file_name.txt
+git reset
 git commit -m "first commit"
 git push
 
