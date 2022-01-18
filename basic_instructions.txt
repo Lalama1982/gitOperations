@@ -18,11 +18,23 @@ git clone https://github.com/Lalama1982/gitOperations.git
 git pull origin master
 
 // add changes, committing & push
+git add -A
 git add file_name.txt
 git reset
 git commit -m "first commit"
 git push
 
+// adding to a custom branch "main_branch" of the remote repo
+echo "# MultiJs_Stuff-OAuth_Expr_React_Passport_BackEnd" >> README.md
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git branch -M main_branch
+git remote add origin https://github.com/Lalama1982/MultiJs_Stuff-OAuth_Expr_React_Passport_BackEnd.git
+git push -u origin main_branch 
+
+// if need to push to master, replace "main_branch" with "master"		
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 -- Task: Copy stuff from "repo1" to "repo2"
 cd repo2
