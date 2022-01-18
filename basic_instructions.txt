@@ -29,7 +29,12 @@ echo "# MultiJs_Stuff-OAuth_Expr_React_Passport_BackEnd" >> README.md
 git init
 git add README.md
 git add .
+git add -p basic_instructions.txt // patch wise, get to choose the part to commit
+git diff basic_instructions.txt
+git commit // -- add msg -- & press "Esc" & :wq (save & quit)
 git commit -m "first commit"
+git log
+
 git branch -M main_branch
 git remote add origin https://github.com/Lalama1982/MultiJs_Stuff-OAuth_Expr_React_Passport_BackEnd.git
 git push -u origin main_branch 
