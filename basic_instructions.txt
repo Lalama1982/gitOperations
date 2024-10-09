@@ -1,7 +1,10 @@
 ssh >> passphrase for key : lmynad1982
 
+git status
+
 // initial set up
 git init
+git init HOPE_OLAP
 git config --global user.name "Lalama1982"
 git config --global user.email "lalamaesp@gmail.com"
 
@@ -22,7 +25,12 @@ git add -A
 git add file_name.txt
 git reset
 git commit -m "first commit"
+// if config changed after a commit
+git commit --amend --reset-author 
+
+// push
 git push
+git push --set-upstream origin main
 
 // adding to a custom branch "main_branch" of the remote repo
 echo "# MultiJs_Stuff-OAuth_Expr_React_Passport_BackEnd" >> README.md
